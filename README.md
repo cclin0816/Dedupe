@@ -34,7 +34,4 @@ $(CXX) -std=c++20 -O3 -Wall dedupe.cpp -o dedupe -pthread -lcrypto
 * should use thread pool instead of using semaphore controlling thread spawn
 * might use up alot of memory and get killed when using `-d bin_diff`
 * no hardlink support
-
-## Not Implement Yet
-
-* remove methods
+* softlink is relative no absolute support

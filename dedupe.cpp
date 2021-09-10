@@ -13,6 +13,7 @@
 #include <utility>
 #include <vector>
 #include <execution>
+#include <syncstream>
 
 // argument options
 
@@ -21,7 +22,6 @@ enum class diff_method { bin_diff, hash };
 
 // global var
 
-std::mutex cout_mutex;
 std::atomic<std::size_t> dup_cnt(0);
 std::counting_semaphore<64> job_sema(0);
 
@@ -129,10 +129,13 @@ using file_entries_t = std::vector<file_entry_t>;
 using files_t = std::vector<file_t>;
 
 void rm_file(const std::string &path, const std::string &original_file,
-             [[maybe_unused]] const remove_method rm_mtd) {
-  {
-    std::lock_guard<std::mutex> cout_lock(cout_mutex);
-    std::cout << path << "\n-> " << original_file << '\n';
+             const remove_method rm_mtd) {
+  std::osyncstream(std::cout) << path << "\n-> " << original_file << '\n';
+  if(rm_mtd != remove_method::log) {
+    fs::remove(path);
+    if(rm_mtd == remove_method::link) {
+      fs::create_symlink(fs::relative(original_file, fs::path(path).parent_path()), path);
+    }
   }
   dup_cnt++;
 }
@@ -225,8 +228,8 @@ int main(int argc, char *const *argv) {
   // ls -R
   std::cout << "generating file list" << std::endl;
   try {
-    for (auto &file : fs::recursive_directory_iterator(target_dir)) {
-      if (file.is_regular_file()) {
+    for (auto &file : fs::recursive_directory_iterator(target_dir, fs::directory_options::skip_permission_denied)) {
+      if (file.is_regular_file() && !file.is_symlink()) {
         file_entries.emplace_back(file.path(), fs::file_size(file));
       }
     }
