@@ -12,6 +12,7 @@
 #include <thread>
 #include <utility>
 #include <vector>
+#include <execution>
 
 // argument options
 
@@ -68,7 +69,7 @@ class file_t {
       } else {
         SHA256_CTX sha256;
         std::ifstream ifs(path.c_str(), std::ios::in | std::ios::binary);
-        constexpr auto buf_size = 1024UL;
+        constexpr auto buf_size = 4096UL;
         char buf[buf_size];
         bool hash_fail = false;
         hash_fail = (hash_fail || SHA256_Init(&sha256) == 0);
@@ -236,7 +237,7 @@ int main(int argc, char *const *argv) {
 
   // sort with file size
   std::cout << "sorting file list" << std::endl;
-  std::sort(file_entries.begin(), file_entries.end(),
+  std::sort(std::execution::par_unseq, file_entries.begin(), file_entries.end(),
             [](auto &a, auto &b) { return a.size > b.size; });
 
   const auto entry_cnt = file_entries.size();
