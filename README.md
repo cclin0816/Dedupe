@@ -1,37 +1,43 @@
 # Dedupe
 
-Dedupe finds duplicate files in given directory  
+Dedupe detects duplicate files  
 weird project just to test out c++20  
 
 ## Compilation
 
-### Requires
+### Requires20
 
-* `clang++>=12.0.1` or `g++>=11` or `MSVC (not tested)`
+* c++20 compatible compiler
+  * `clang++>=12.0.1` (tested on 12.0.1 with ASAN)
+  * `g++>=11` (tested on 11.2.0)
+  * `MSVC>=19.29` (not tested)
 * `libcrypto>=1.1.0`
 
 ```sh=
-$(CXX) -std=c++20 -O3 -Wall dedupe.cpp -o dedupe -pthread -lcrypto
+$(CXX) -std=c++20 -O2 -Wall dedupe.cpp -o dedupe -pthread -lcrypto
 ```
 
 ## Execution
 
-> ./dedupe \[-p dir\] \[-r rm_method\] \[-d diff_method\] \[-j max_thread\]
+> ./dedupe \[-p <>\] \[-r <>\] \[-d <>\] \[-j <>\] \[-h <>\] \[-l <>\] \[-m <>\] \[-o <>\]
 
-* dir - path to directory
-* rm_method
-  * log (default) - only print out duplicate entry
-  * remove - remove and print out duplicate entry
-  * link - softlink and print out duplicate entry
-* diff_method
-  * bin_diff (default) - use binary diff (might break if alot of same size large file)
-  * hash - use file hash to compare (slower but less memory usage)
-* max_thread - 1 ~ 64
+* -p : path to directory
+* -r : remove method
+  * log (default) - print out duplicate entry
+  * remove - remove and log
+  * link - link and log
+* -d : diff method
+  * bin (default) - use binary diff (fall back to hash when file too large)
+  * hash - use hash to compare (slower)
+* -j : max thread - 1 ~ 64
+* -h : hash method - any kind of digest supported by openssl
+* -l : link method (ignored if not -r link)
+  * soft_rel - relative symlink
+  * soft_abs - absolute symlink
+  * hard - hard link
+* -m : memory limit of each thread (hash fall back threshold)
+* -o : log output file (default stdout)
 
 ## Known Issue
 
-* should use `EVP` instead of `SHA256` for more flexible hash support
-* should use thread pool instead of using semaphore controlling thread spawn
-* might use up alot of memory and get killed when using `-d bin_diff`
-* no hardlink support
-* softlink is relative no absolute support
+* should use thread pool instead of using semaphore controlling thread spawn  
