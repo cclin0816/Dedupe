@@ -37,7 +37,3 @@ $(CXX) -std=c++20 -O2 -Wall dedupe.cpp -o dedupe -pthread -lcrypto
   * hard - hard link
 * -m : memory limit of each thread (hash fall back threshold)
 * -o : log output file (default stdout)
-
-## Known Issue
-
-* should use thread pool instead of using semaphore controlling thread spawn  
