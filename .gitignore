@@ -1,9 +1,6 @@
 
-*
-!*.*
-!*/
-
-!makefile
-
 .vscode
 test
+build/*
+debug/*
+dedupe

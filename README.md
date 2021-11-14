@@ -1,11 +1,11 @@
 # Dedupe
 
-Dedupe detects duplicate files  
-weird project just to test out c++20  
+Dedupe detect and remove duplicate files  
+written in c++20  
 
 ## Compilation
 
-### Requires20
+### Requires
 
 * c++20 compatible compiler
   * `clang++>=12.0.1` (tested on 12.0.1 with ASAN)
@@ -14,7 +14,7 @@ weird project just to test out c++20
 * `libcrypto>=1.1.0`
 
 ```sh=
-$(CXX) -std=c++20 -O2 -Wall dedupe.cpp -o dedupe -pthread -lcrypto
+make
 ```
 
 ## Execution
