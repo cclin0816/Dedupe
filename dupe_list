@@ -1,0 +1,479 @@
+"/mnt/d/Program Files/ghidra/Ghidra/Framework/Help/Module.manifest" - 1
+"/mnt/d/Program Files/ghidra/Ghidra/Framework/DB/Module.manifest" - 1
+"/mnt/d/Program Files/ghidra/Ghidra/Features/PDB/Module.manifest" - 1
+"/mnt/d/Program Files/ghidra/Ghidra/Features/GnuDemangler/Module.manifest" - 1
+"/mnt/d/Program Files/ghidra/Ghidra/Features/SourceCodeLookup/Module.manifest" - 30
+"/mnt/d/Program Files/ghidra/Ghidra/Features/GraphFunctionCalls/Module.manifest" - 30
+"/mnt/d/Program Files/ghidra/Ghidra/Features/ProgramDiff/Module.manifest" - 30
+"/mnt/d/Program Files/ghidra/Ghidra/Features/FunctionGraphDecompilerExtension/Module.manifest" - 30
+"/mnt/d/Program Files/ghidra/Ghidra/Features/DebugUtils/Module.manifest" - 30
+"/mnt/d/Program Files/ghidra/Ghidra/Features/ProgramGraph/Module.manifest" - 31
+"/mnt/d/Program Files/ghidra/Ghidra/Features/FunctionGraph/Module.manifest" - 31
+"/mnt/d/Side_Project/dedupe/test2" - 3
+"/mnt/d/Side_Project/dedupe/test1" - 3
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/Dalvik/data/sleighArgs.txt" - 3
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/HCS12/data/sleighArgs.txt" - 3
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/MCS96/data/sleighArgs.txt" - 3
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/HCS08/data/sleighArgs.txt" - 3
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/AARCH64/data/sleighArgs.txt" - 3
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/MIPS/data/sleighArgs.txt" - 3
+"/mnt/d/CTF/angr/angr_ctf/.git/description" - 73
+"/mnt/d/Side_Project/dedupe/.git/description" - 73
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/.git/description" - 73
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/rootfs/svc.c" - 77
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/usr/svc.c" - 77
+"/mnt/d/CTF/angr/angr_ctf/11_angr_sim_scanf/description.txt" - 12
+"/mnt/d/CTF/angr/angr_ctf/07_angr_symbolic_file/description.txt" - 12
+"/mnt/d/CTF/angr/angr_ctf/00_angr_find/description.txt" - 12
+"/mnt/d/CTF/angr/angr_ctf/06_angr_symbolic_dynamic_memory/description.txt" - 12
+"/mnt/d/CTF/angr/angr_ctf/01_angr_avoid/description.txt" - 12
+"/mnt/d/CTF/angr/angr_ctf/05_angr_symbolic_memory/description.txt" - 12
+"/mnt/d/CTF/angr/angr_ctf/04_angr_symbolic_stack/description.txt" - 12
+"/mnt/d/CTF/angr/angr_ctf/03_angr_symbolic_registers/description.txt" - 12
+"/mnt/d/CTF/angr/angr_ctf/08_angr_constraints/description.txt" - 12
+"/mnt/d/CTF/angr/angr_ctf/xx_angr_segfault/description.txt" - 12
+"/mnt/d/CTF/angr/angr_ctf/17_angr_arbitrary_jump/description.txt" - 12
+"/mnt/d/CTF/angr/angr_ctf/16_angr_arbitrary_write/description.txt" - 12
+"/mnt/d/CTF/angr/angr_ctf/15_angr_arbitrary_read/description.txt" - 12
+"/mnt/d/CTF/angr/angr_ctf/14_angr_shared_library/description.txt" - 12
+"/mnt/d/CTF/angr/angr_ctf/13_angr_static_binary/description.txt" - 12
+"/mnt/d/CTF/angr/angr_ctf/09_angr_hooks/description.txt" - 12
+"/mnt/d/CTF/angr/angr_ctf/02_angr_find_condition/description.txt" - 12
+"/mnt/d/CTF/angr/angr_ctf/12_angr_veritesting/description.txt" - 12
+"/mnt/d/CTF/angr/angr_ctf/10_angr_simprocedures/description.txt" - 12
+"/mnt/d/CTF/google2022/hardware/weather/ghidra/weather.rep/versioned/~index.bak" - 63
+"/mnt/d/CTF/google2022/pwn/madcore/ghidra/madcore.rep/user/~index.dat" - 63
+"/mnt/d/CTF/google2022/hardware/weather/ghidra/weather.rep/versioned/~index.dat" - 63
+"/mnt/d/CTF/google2022/hardware/weather/ghidra/weather.rep/user/~index.dat" - 63
+"/mnt/d/CTF/google2022/pwn/madcore/ghidra/madcore.rep/versioned/~index.dat" - 63
+"/mnt/d/CTF/google2022/pwn/madcore/ghidra/madcore.rep/versioned/~index.bak" - 63
+"/mnt/d/CTF/angr/angr_ctf/.git/shallow" - 41
+"/mnt/d/CTF/angr/angr_ctf/.git/refs/heads/master" - 41
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/.git/refs/remotes/origin/0616325" - 41
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/.git/refs/heads/0616325" - 41
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/.git/refs/heads/dev" - 41
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/.git/refs/heads/dev_fix" - 41
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/.git/refs/remotes/origin/dev" - 41
+"/mnt/d/Side_Project/dedupe/.git/ORIG_HEAD" - 41
+"/mnt/d/Side_Project/dedupe/.git/refs/remotes/origin/main" - 41
+"/mnt/d/CTF/google2022/pwn/madcore/ghidra/madcore.rep/idata/~index.bak" - 109
+"/mnt/d/CTF/google2022/pwn/madcore/ghidra/madcore.rep/idata/~index.dat" - 109
+"/mnt/d/Program Files/ghidra/Ghidra/Debug/Debugger-agent-dbgmodel/Module.manifest" - 125
+"/mnt/d/Program Files/ghidra/Ghidra/Debug/Debugger-agent-dbgmodel-traceloader/Module.manifest" - 125
+"/mnt/d/Program Files/ghidra/Ghidra/Debug/Debugger-agent-dbgeng/Module.manifest" - 125
+"/mnt/d/CTF/google2022/hardware/weather/ghidra/weather.rep/idata/~index.bak" - 114
+"/mnt/d/CTF/google2022/hardware/weather/ghidra/weather.rep/idata/~index.dat" - 114
+"/mnt/d/Program Files/cutter/lib/plugins/rz_ghidra_sleigh/superh.pspec" - 114
+"/mnt/d/Program Files/cutter/lib/plugins/rz_ghidra_sleigh/toy.pspec" - 114
+"/mnt/d/CTF/google2022/hardware/weather/ghidra/weather.rep/project.prp" - 164
+"/mnt/d/CTF/google2022/pwn/madcore/ghidra/madcore.rep/project.prp" - 164
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/usr/svc.img" - 192
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/rootfs/svc.img" - 192
+"/mnt/d/Program Files/ghidra/licenses/Modified_Nuvola_Icons_-_LGPL_2.1.txt" - 189
+"/mnt/d/Program Files/ghidra/GPL/licenses/Modified_Nuvola_Icons_-_LGPL_2.1.txt" - 189
+"/mnt/d/Side_Project/dedupe/.git/hooks/post-update.sample" - 189
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/.git/hooks/post-update.sample" - 189
+"/mnt/d/CTF/angr/angr_ctf/.git/hooks/post-update.sample" - 189
+"/mnt/d/CTF/angr/angr_ctf/dist/scaffold12.py" - 204
+"/mnt/d/CTF/angr/angr_ctf/solutions/12_angr_veritesting/scaffold12.py" - 204
+"/mnt/d/CTF/angr/angr_ctf/12_angr_veritesting/scaffold12.py" - 204
+"/mnt/d/CTF/angr/angr_ctf/.git/logs/HEAD" - 193
+"/mnt/d/CTF/angr/angr_ctf/.git/logs/refs/heads/master" - 193
+"/mnt/d/CTF/angr/angr_ctf/.git/logs/refs/remotes/origin/HEAD" - 193
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-16.png" - 215
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-16_altform-unplated.png" - 215
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-16_altform-lightunplated.png" - 215
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-24.png" - 236
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-24_altform-lightunplated.png" - 236
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-24_altform-unplated.png" - 236
+"/mnt/d/CTF/angr/angr_ctf/.git/info/exclude" - 240
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/.git/info/exclude" - 240
+"/mnt/d/Side_Project/dedupe/.git/info/exclude" - 240
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-20.png" - 244
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-20_altform-lightunplated.png" - 244
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-20_altform-unplated.png" - 244
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/usr/argv_test.c" - 263
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/rootfs/argv_test.c" - 263
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-30.png" - 262
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-30_altform-lightunplated.png" - 262
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-30_altform-unplated.png" - 262
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/rootfs/linker.ld" - 283
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/usr/linker.ld" - 283
+"/mnt/d/Program Files/dnSpy/bin/dnSpy.runtimeconfig.json" - 274
+"/mnt/d/Program Files/dnSpy/bin/dnSpy.Console.runtimeconfig.json" - 274
+"/mnt/d/Program Files/ghidra/Ghidra/Features/Base/data/symbols/win64/kernel32.hints" - 281
+"/mnt/d/Program Files/ghidra/Ghidra/Features/Base/data/symbols/win32/kernel32.hints" - 281
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-32.png" - 286
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-32_altform-lightunplated.png" - 286
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-32_altform-unplated.png" - 286
+"/mnt/d/Program Files/ghidra/Ghidra/Features/Base/data/symbols/win32/msvcrt.hints" - 326
+"/mnt/d/Program Files/ghidra/Ghidra/Features/Base/data/symbols/win64/msvcrt.hints" - 326
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/usr/ls.c" - 339
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/rootfs/ls.c" - 339
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/rootfs/vfs.c" - 342
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/usr/vfs.c" - 342
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/BadgeLogo.scale-200.png" - 346
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-48.png" - 346
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-48_altform-unplated.png" - 346
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-48_altform-lightunplated.png" - 346
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-36_altform-unplated.png" - 349
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-36_altform-lightunplated.png" - 349
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-36.png" - 349
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-40.png" - 352
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-40_altform-lightunplated.png" - 352
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-40_altform-unplated.png" - 352
+"/mnt/d/Program Files/ghidra/GPL/settings.gradle" - 368
+"/mnt/d/Program Files/ghidra/Ghidra/settings.gradle" - 368
+"/mnt/d/Program Files/ghidra/Ghidra/Debug/Debugger-agent-dbgmodel-traceloader/LICENSE.txt" - 389
+"/mnt/d/Program Files/ghidra/Ghidra/Debug/Debugger-agent-dbgeng/LICENSE.txt" - 389
+"/mnt/d/Program Files/ghidra/Ghidra/Debug/Debugger-agent-dbgmodel/LICENSE.txt" - 389
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-60_altform-unplated.png" - 408
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-60.png" - 408
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-60_altform-lightunplated.png" - 408
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/.git/hooks/pre-merge-commit.sample" - 416
+"/mnt/d/CTF/angr/angr_ctf/.git/hooks/pre-merge-commit.sample" - 416
+"/mnt/d/Side_Project/dedupe/.git/hooks/pre-merge-commit.sample" - 416
+"/mnt/d/Side_Project/dedupe/.git/hooks/pre-applypatch.sample" - 424
+"/mnt/d/CTF/angr/angr_ctf/.git/hooks/pre-applypatch.sample" - 424
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/.git/hooks/pre-applypatch.sample" - 424
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-64_altform-lightunplated.png" - 446
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-64_altform-unplated.png" - 446
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-64.png" - 446
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/rootfs/makefile" - 468
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/usr/makefile" - 468
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-72_altform-unplated.png" - 471
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-72.png" - 471
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-72_altform-lightunplated.png" - 471
+"/mnt/d/Side_Project/dedupe/.git/hooks/applypatch-msg.sample" - 478
+"/mnt/d/CTF/angr/angr_ctf/.git/hooks/applypatch-msg.sample" - 478
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/.git/hooks/applypatch-msg.sample" - 478
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/rootfs/mlvfs.c" - 513
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/usr/mlvfs.c" - 513
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-80.png" - 531
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-80_altform-unplated.png" - 531
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-80_altform-lightunplated.png" - 531
+"/mnt/d/Program Files/ghidra/Ghidra/Configurations/Public_Release/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/68000/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/8051/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/x86/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/Z80/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/V850/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/Sparc/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Debug/Framework-AsyncComm/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Features/MicrosoftDmang/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/RISCV/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/M8C/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/PowerPC/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/8085/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Features/MicrosoftCodeAnalyzer/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Debug/AnnotationValidator/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/tricore/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Features/Recognizers/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/PIC/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/PA-RISC/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/TI_MSP430/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/MIPS/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Features/MicrosoftDemangler/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/SuperH4/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/MC6800/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/MCS96/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/CR16/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Framework/DB/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/JVM/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Features/GnuDemangler/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/HCS12/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/HCS08/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/DATA/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/Dalvik/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Features/GhidraServer/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Framework/Help/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Debug/Framework-Debugging/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Debug/Framework-TraceModeling/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Debug/ProposedUtils/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Features/FunctionGraphDecompilerExtension/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/SuperH/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Framework/Utility/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/6502/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/8048/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/Atmel/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Features/DecompilerDependent/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/CP1600/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Debug/Debugger-jpda/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/ARM/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/AARCH64/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Features/DebugUtils/LICENSE.txt" - 320
+"/mnt/d/Program Files/ghidra/Ghidra/Features/GraphFunctionCalls/LICENSE.txt" - 540
+"/mnt/d/Program Files/ghidra/Ghidra/Features/SourceCodeLookup/LICENSE.txt" - 540
+"/mnt/d/Program Files/ghidra/Ghidra/Features/BytePatterns/LICENSE.txt" - 540
+"/mnt/d/Side_Project/dedupe/.git/hooks/pre-receive.sample" - 544
+"/mnt/d/CTF/angr/angr_ctf/.git/hooks/pre-receive.sample" - 544
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/.git/hooks/pre-receive.sample" - 544
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-96_altform-lightunplated.png" - 619
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-96.png" - 619
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-96_altform-unplated.png" - 619
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/rootfs/start.S" - 693
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/usr/start.S" - 693
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/rootfs/fork_test.c" - 720
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/usr/fork_test.c" - 720
+"/mnt/d/Program Files/ghidra/docs/GhidraClass/ExerciseFiles/VersionTracking/Source/Mod1/Gadget.h" - 900
+"/mnt/d/Program Files/ghidra/docs/GhidraClass/ExerciseFiles/VersionTracking/Source/Original/Gadget.h" - 900
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/.git/hooks/commit-msg.sample" - 896
+"/mnt/d/CTF/angr/angr_ctf/.git/hooks/commit-msg.sample" - 896
+"/mnt/d/Side_Project/dedupe/.git/hooks/commit-msg.sample" - 896
+"/mnt/d/CTF/angr/angr_ctf/dist/scaffold01.py" - 902
+"/mnt/d/CTF/angr/angr_ctf/solutions/01_angr_avoid/scaffold01.py" - 902
+"/mnt/d/CTF/angr/angr_ctf/01_angr_avoid/scaffold01.py" - 902
+"/mnt/d/Program Files/ghidra/docs/GhidraClass/ExerciseFiles/VersionTracking/Source/Mod2/Wallace.h" - 917
+"/mnt/d/Program Files/ghidra/docs/GhidraClass/ExerciseFiles/VersionTracking/Source/Original/Wallace.h" - 917
+"/mnt/d/Program Files/ghidra/docs/GhidraClass/ExerciseFiles/VersionTracking/Source/Mod1/Wallace.h" - 917
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/usr/argv_test.img" - 1102
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/rootfs/argv_test.img" - 1102
+"/mnt/d/Program Files/cutter/share/format/dll/MCICDA.sdb" - 1083
+"/mnt/d/Program Files/cutter/share/format/dll/MCIWAVE.sdb" - 1083
+"/mnt/d/Program Files/cutter/share/format/dll/MCIAVI.sdb" - 1083
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/usr/ls.img" - 1104
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/rootfs/ls.img" - 1104
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/rootfs/vfs.img" - 1199
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/usr/vfs.img" - 1199
+"/mnt/d/Program Files/ghidra/docs/GhidraClass/ExerciseFiles/VersionTracking/Source/Original/Gadget.cpp" - 1269
+"/mnt/d/Program Files/ghidra/docs/GhidraClass/ExerciseFiles/VersionTracking/Source/Mod1/Gadget.cpp" - 1269
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/rootfs/fork_test.img" - 1337
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/usr/fork_test.img" - 1337
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/.git/hooks/pre-push.sample" - 1348
+"/mnt/d/Side_Project/dedupe/.git/hooks/pre-push.sample" - 1348
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/rootfs/mlvfs.img" - 1413
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/usr/mlvfs.img" - 1413
+"/mnt/d/CTF/angr/angr_ctf/dist/scaffold13.py" - 1445
+"/mnt/d/CTF/angr/angr_ctf/13_angr_static_binary/scaffold13.py" - 1445
+"/mnt/d/Side_Project/dedupe/.git/hooks/prepare-commit-msg.sample" - 1492
+"/mnt/d/CTF/angr/angr_ctf/.git/hooks/prepare-commit-msg.sample" - 1492
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/.git/hooks/prepare-commit-msg.sample" - 1492
+"/mnt/d/Program Files/cutter/share/asm/cpus/avr-ATmega1280.sdb" - 1490
+"/mnt/d/Program Files/cutter/share/asm/cpus/avr-ATmega1281.sdb" - 1490
+"/mnt/d/Program Files/cutter/share/asm/cpus/avr-ATmega2560.sdb" - 1490
+"/mnt/d/Program Files/cutter/share/asm/cpus/avr-ATmega2561.sdb" - 1490
+"/mnt/d/CTF/angr/angr_ctf/05_angr_symbolic_memory/scaffold05.py" - 1537
+"/mnt/d/CTF/angr/angr_ctf/dist/scaffold05.py" - 1537
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-256.png" - 1612
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-256_altform-lightunplated.png" - 1612
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Images/AppList.targetsize-256_altform-unplated.png" - 1612
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/.git/hooks/pre-commit.sample" - 1638
+"/mnt/d/Side_Project/dedupe/.git/hooks/pre-commit.sample" - 1638
+"/mnt/d/Program Files/cutter/share/types/cc-mips-64.sdb" - 1677
+"/mnt/d/Program Files/cutter/share/types/cc-mips-32.sdb" - 1677
+"/mnt/d/CTF/angr/angr_ctf/11_angr_sim_scanf/scaffold11.py" - 1886
+"/mnt/d/CTF/angr/angr_ctf/dist/scaffold11.py" - 1886
+"/mnt/d/Program Files/cutter/python37/site-packages/shiboken2/files.dir/shibokensupport/__init__.py" - 1936
+"/mnt/d/Program Files/cutter/python37/site-packages/shiboken2/files.dir/shibokensupport/signature/lib/__init__.py" - 1936
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/usr/start.h" - 2022
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/rootfs/start.h" - 2022
+"/mnt/d/CTF/angr/angr_ctf/solutions/06_angr_symbolic_dynamic_memory/scaffold06.py" - 1993
+"/mnt/d/CTF/angr/angr_ctf/06_angr_symbolic_dynamic_memory/scaffold06.py" - 1993
+"/mnt/d/CTF/angr/angr_ctf/dist/scaffold06.py" - 1993
+"/mnt/d/CTF/angr/angr_ctf/dist/scaffold02.py" - 2031
+"/mnt/d/CTF/angr/angr_ctf/solutions/02_angr_find_condition/scaffold02.py" - 2031
+"/mnt/d/CTF/angr/angr_ctf/02_angr_find_condition/scaffold02.py" - 2031
+"/mnt/d/Program Files/Serato/Serato Studio/qml/QtQuick/Controls.2/designer/ControlSpecifics.qml" - 2066
+"/mnt/d/Program Files/Serato/Serato Studio/qml/QtQuick/Controls.2/designer/StackViewSpecifics.qml" - 2066
+"/mnt/d/Program Files/Serato/Serato Studio/qml/QtQuick/Controls.2/designer/FrameSpecifics.qml" - 2123
+"/mnt/d/Program Files/Serato/Serato Studio/qml/QtQuick/Controls.2/designer/PaneSpecifics.qml" - 2123
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/8048/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/Toy/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/DATA/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/V850/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/HCS08/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/x86/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/Z80/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/Dalvik/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/8085/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/CR16/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/68000/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/8051/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/tricore/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/CP1600/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/6502/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/AARCH64/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/M8C/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/ARM/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/Atmel/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/RISCV/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/SuperH/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/SuperH4/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/PowerPC/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/MC6800/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/PIC/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/PA-RISC/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/MIPS/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/HCS12/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/TI_MSP430/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/JVM/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/MCS96/data/build.xml" - 1610
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/Sparc/data/build.xml" - 1610
+"/mnt/d/Program Files/Serato/Serato Studio/qml/QtQuick/Controls.2/designer/ButtonSpecifics.qml" - 2192
+"/mnt/d/Program Files/Serato/Serato Studio/qml/QtQuick/Controls.2/designer/ToolButtonSpecifics.qml" - 2192
+"/mnt/d/Program Files/Serato/Serato Studio/qml/QtQuick/Controls.2/designer/TabButtonSpecifics.qml" - 2133
+"/mnt/d/Program Files/Serato/Serato Studio/qml/QtQuick/Controls.2/designer/RadioButtonSpecifics.qml" - 2133
+"/mnt/d/Program Files/Serato/Serato Studio/qml/QtQuick/Controls.2/designer/SwitchSpecifics.qml" - 2133
+"/mnt/d/Program Files/Serato/Serato Studio/qml/QtQuick/Controls.2/designer/SwipeDelegateSpecifics.qml" - 2198
+"/mnt/d/Program Files/Serato/Serato Studio/qml/QtQuick/Controls.2/designer/RadioDelegateSpecifics.qml" - 2198
+"/mnt/d/Program Files/Serato/Serato Studio/qml/QtQuick/Controls.2/designer/ItemDelegateSpecifics.qml" - 2198
+"/mnt/d/CTF/angr/angr_ctf/dist/scaffold14.py" - 2549
+"/mnt/d/CTF/angr/angr_ctf/14_angr_shared_library/scaffold14.py" - 2549
+"/mnt/d/Program Files/cutter/python37/site-packages/shiboken2/_git_shiboken_module_version.py" - 2515
+"/mnt/d/Program Files/cutter/python37/site-packages/shiboken2_generator/_git_shiboken_generator_version.py" - 2515
+"/mnt/d/Program Files/cutter/python37/site-packages/PySide2/_git_pyside_version.py" - 2515
+"/mnt/d/Program Files/cutter/share/types/types-arm-ios-16.sdb" - 2767
+"/mnt/d/Program Files/cutter/share/types/types-x86-macos-64.sdb" - 2767
+"/mnt/d/Program Files/ghidra/Ghidra/Features/Python/data/jython-2.7.2/Lib/email/test/test_email_codecs.py" - 2842
+"/mnt/d/Program Files/ghidra/Ghidra/Features/Python/data/jython-2.7.2/Lib/email/test/test_email_codecs_renamed.py" - 2842
+"/mnt/d/CTF/angr/angr_ctf/solutions/03_angr_symbolic_registers/scaffold03.py" - 2896
+"/mnt/d/CTF/angr/angr_ctf/03_angr_symbolic_registers/scaffold03.py" - 2896
+"/mnt/d/CTF/angr/angr_ctf/dist/scaffold03.py" - 2896
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/.git/hooks/fsmonitor-watchman.sample" - 3079
+"/mnt/d/Side_Project/dedupe/.git/hooks/fsmonitor-watchman.sample" - 3079
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/usr/start.asmo" - 3216
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/rootfs/start.asmo" - 3216
+"/mnt/d/Program Files/ghidra/Extensions/Ghidra/Skeleton/src/main/help/help/shared/Frontpage.css" - 3327
+"/mnt/d/Program Files/ghidra/docs/languages/html/Frontpage.css" - 3327
+"/mnt/d/Program Files/cutter/share/types/types-arm-ios-32.sdb" - 3550
+"/mnt/d/Program Files/cutter/share/types/types-arm-ios-64.sdb" - 3550
+"/mnt/d/CTF/angr/angr_ctf/solutions/00_angr_find/scaffold00.py" - 3482
+"/mnt/d/CTF/angr/angr_ctf/00_angr_find/scaffold00.py" - 3482
+"/mnt/d/CTF/angr/angr_ctf/dist/scaffold00.py" - 3482
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/.git/hooks/update.sample" - 3610
+"/mnt/d/Side_Project/dedupe/.git/hooks/update.sample" - 3610
+"/mnt/d/CTF/angr/angr_ctf/dist/scaffold09.py" - 3799
+"/mnt/d/CTF/angr/angr_ctf/09_angr_hooks/scaffold09.py" - 3799
+"/mnt/d/CTF/angr/angr_ctf/08_angr_constraints/scaffold08.py" - 4050
+"/mnt/d/CTF/angr/angr_ctf/dist/scaffold08.py" - 4050
+"/mnt/d/CTF/angr/angr_ctf/17_angr_arbitrary_jump/scaffold17.py" - 4210
+"/mnt/d/CTF/angr/angr_ctf/dist/scaffold17.py" - 4210
+"/mnt/d/CTF/angr/angr_ctf/10_angr_simprocedures/scaffold10.py" - 4519
+"/mnt/d/CTF/angr/angr_ctf/dist/scaffold10.py" - 4519
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/.git/hooks/pre-rebase.sample" - 4898
+"/mnt/d/CTF/angr/angr_ctf/.git/hooks/pre-rebase.sample" - 4898
+"/mnt/d/Side_Project/dedupe/.git/hooks/pre-rebase.sample" - 4898
+"/mnt/d/CTF/angr/angr_ctf/07_angr_symbolic_file/scaffold07.py" - 5656
+"/mnt/d/CTF/angr/angr_ctf/dist/scaffold07.py" - 5656
+"/mnt/d/CTF/angr/angr_ctf/solutions/07_angr_symbolic_file/scaffold07.py" - 5656
+"/mnt/d/CTF/angr/angr_ctf/04_angr_symbolic_stack/scaffold04.py" - 6317
+"/mnt/d/CTF/angr/angr_ctf/dist/scaffold04.py" - 6317
+"/mnt/d/CTF/angr/angr_ctf/solutions/04_angr_symbolic_stack/scaffold04.py" - 6317
+"/mnt/d/CTF/angr/angr_ctf/16_angr_arbitrary_write/scaffold16.py" - 6599
+"/mnt/d/CTF/angr/angr_ctf/dist/scaffold16.py" - 6599
+"/mnt/d/Program Files/ghidra/docs/GhidraClass/Intermediate/Images/GhidraLogo64.png" - 8632
+"/mnt/d/Program Files/ghidra/docs/GhidraClass/Beginner/Images/GhidraLogo64.png" - 8632
+"/mnt/d/Program Files/ghidra/docs/GhidraClass/AdvancedDevelopment/Images/GhidraLogo64.png" - 8632
+"/mnt/d/CTF/angr/angr_ctf/15_angr_arbitrary_read/scaffold15.py" - 9186
+"/mnt/d/CTF/angr/angr_ctf/dist/scaffold15.py" - 9186
+"/mnt/d/Program Files/cutter/include/librz/sflib/linux-arm-32/sfsysnr.h" - 11501
+"/mnt/d/Program Files/cutter/include/librz/sflib/linux-arm-64/sfsysnr.h" - 11501
+"/mnt/d/Program Files/dnSpy/bin/LicenseInfo/ApacheV2.txt" - 11560
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Licenses/ANGLE/third-party/bazel/LICENSE" - 11560
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Licenses/ANGLE/third-party/turbine/LICENSE" - 11560
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/test/a3.S" - 11567
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/test/a4.S" - 11567
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/test/a.S" - 8704
+"/mnt/d/Archive/Course/Operating_System_Capstone/osc2021/test/a2.S" - 8704
+"/mnt/d/Temp/2005滑雪/VIDEO_TS.BUP" - 12288
+"/mnt/d/Temp/2005滑雪/VIDEO_TS.IFO" - 12288
+"/mnt/d/$RECYCLE.BIN/S-1-5-21-2909515477-2200856303-920524650-1001/$RHNQJQI.BUP" - 12288
+"/mnt/d/$RECYCLE.BIN/S-1-5-21-2909515477-2200856303-920524650-1001/$RNDDXWV.IFO" - 12288
+"/mnt/d/Program Files/cutter/include/librz/sflib/linux-arm-32/sflib.h" - 12726
+"/mnt/d/Program Files/cutter/include/librz/sflib/linux-x86-64/sflib.h" - 12726
+"/mnt/d/Program Files/cutter/include/librz/sflib/linux-arm-64/sflib.h" - 12726
+"/mnt/d/$RECYCLE.BIN/S-1-5-21-2909515477-2200856303-920524650-1001/$RGEAHJL.IFO" - 14336
+"/mnt/d/$RECYCLE.BIN/S-1-5-21-2909515477-2200856303-920524650-1001/$RDTLRAE.BUP" - 14336
+"/mnt/d/Temp/2008/VIDEO_TS.IFO" - 14336
+"/mnt/d/Temp/2008/VIDEO_TS.BUP" - 14336
+"/mnt/d/Program Files/ghidra/Ghidra/Features/GhidraServer/data/yajsw-beta-13.01/lib/extended/velocity/slf4j-api-1.5.0.jar" - 16591
+"/mnt/d/Program Files/ghidra/Ghidra/Features/GhidraServer/data/yajsw-beta-13.01/lib/extended/vfs-webdav/slf4j-api-1.5.0.jar" - 16591
+"/mnt/d/Program Files/ghidra/licenses/GPL_2_With_Classpath_Exception.txt" - 19334
+"/mnt/d/Program Files/ghidra/GPL/licenses/GPL_2_With_Classpath_Exception.txt" - 19334
+"/mnt/d/Program Files/cutter/include/librz/sflib/darwin-x86-64/sfsysnr.h" - 20380
+"/mnt/d/Program Files/cutter/include/librz/sflib/darwin-x86-32/sfsysnr.h" - 20380
+"/mnt/d/Program Files/ghidra/licenses/LGPL_3.0.html" - 21443
+"/mnt/d/Program Files/ghidra/GPL/licenses/LGPL_3.0.html" - 21443
+"/mnt/d/Videos/CacheClip/audio/D_/Temp/20080726逐風盃單車賽/VTS_66_10_1.wav.pfl" - 22592
+"/mnt/d/Videos/CacheClip/audio/D_/Temp/20080726逐風盃單車賽/VTS_66_10_0.wav.pfl" - 22592
+"/mnt/d/Program Files/ghidra/GPL/licenses/LGPL_2.1.txt" - 26430
+"/mnt/d/Program Files/ghidra/licenses/LGPL_2.1.txt" - 26430
+"/mnt/d/Program Files/cutter/share/syscall/ios-arm-32.sdb" - 31925
+"/mnt/d/Program Files/cutter/share/syscall/darwin-arm-32.sdb" - 31925
+"/mnt/d/Program Files/cutter/share/syscall/darwin-arm-64.sdb" - 31925
+"/mnt/d/Program Files/cutter/share/syscall/ios-arm-64.sdb" - 31925
+"/mnt/d/$RECYCLE.BIN/S-1-5-21-2909515477-2200856303-920524650-1001/$R4LYH51.BUP" - 34816
+"/mnt/d/$RECYCLE.BIN/S-1-5-21-2909515477-2200856303-920524650-1001/$RKB5YC4.IFO" - 34816
+"/mnt/d/Temp/2005滑雪/VTS_01_0.IFO" - 34816
+"/mnt/d/Temp/2005滑雪/VTS_01_0.BUP" - 34816
+"/mnt/d/Program Files/Subtitle Edit/LICENSE.txt" - 35821
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/Licenses/ANGLE/third-party/skeletons/LICENSE" - 35821
+"/mnt/d/Program Files/dnSpy/bin/LicenseInfo/GPLv3.txt" - 35821
+"/mnt/d/Program Files/ghidra/Ghidra/Features/BytePatterns/data/test/FileBitPatternInfoReaderTestFile1.xml" - 36849
+"/mnt/d/Program Files/ghidra/Ghidra/Features/BytePatterns/data/test/FileBitPatternInfoReaderTestFile2.xml" - 36849
+"/mnt/d/Temp/2008/VTS_01_0.IFO" - 53248
+"/mnt/d/Temp/2008/VTS_01_0.BUP" - 53248
+"/mnt/d/Program Files/ghidra/GPL/DMG/data/os/win_x86_32/llio_amd64.dll" - 64000
+"/mnt/d/Program Files/ghidra/GPL/DMG/data/os/win_x86_64/llio_amd64.dll" - 64000
+"/mnt/d/Program Files/ghidra/Extensions/IDAPro/Python/6xx/loaders/xmlldr.py" - 66515
+"/mnt/d/Program Files/ghidra/Extensions/IDAPro/Python/6xx/plugins/xmlldr.py" - 66515
+"/mnt/d/$RECYCLE.BIN/S-1-5-21-2909515477-2200856303-920524650-1001/$R0RJVJI/IMG_6402.JPG" - 115237
+"/mnt/d/$RECYCLE.BIN/S-1-5-21-2909515477-2200856303-920524650-1001/$R0RJVJI/K2B 來比比看誰的比較重.JPG" - 115237
+"/mnt/d/Program Files/ghidra/GPL/DMG/data/os/win_x86_32/llio_i386.dll" - 61952
+"/mnt/d/Program Files/ghidra/GPL/DMG/data/os/win_x86_64/llio_i386.dll" - 61952
+"/mnt/d/Program Files/cutter/share/syscall/windows-x86-64.sdb" - 137617
+"/mnt/d/Program Files/cutter/share/syscall/windows-x86-32.sdb" - 137617
+"/mnt/d/Program Files/ghidra/GPL/DMG/data/os/win_x86_32/llio_ia64.dll" - 151552
+"/mnt/d/Program Files/ghidra/GPL/DMG/data/os/win_x86_64/llio_ia64.dll" - 151552
+"/mnt/d/Program Files/ghidra/docs/GhidraClass/Advanced/GHIDRA_1.png" - 189819
+"/mnt/d/Program Files/ghidra/docs/images/GHIDRA_1.png" - 189819
+"/mnt/d/Program Files/ghidra/Ghidra/Framework/Generic/lib/commons-io-2.6.jar" - 214788
+"/mnt/d/Program Files/ghidra/Ghidra/Features/GhidraServer/data/yajsw-beta-13.01/lib/core/commons/commons-io-2.6.jar" - 214788
+"/mnt/d/Videos/CacheClip/audio/fairlightProfiles/c/FLP_fd8fb270-3d99-47f7-bfe7-a61608c263ec_80004002.pfl" - 372872
+"/mnt/d/Videos/CacheClip/audio/fairlightProfiles/c/FLP_fd8fb270-3d99-47f7-bfe7-a61608c263ec_80004001.pfl" - 372872
+"/mnt/d/Program Files/ghidra/Ghidra/Features/GraphServices/lib/jgrapht-io-1.5.1.jar" - 361400
+"/mnt/d/Program Files/ghidra/Ghidra/Framework/Graph/lib/jgrapht-io-1.5.1.jar" - 361400
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/Dalvik/data/languages/Dalvik_DEX_KitKat.sla" - 806282
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/Dalvik/data/languages/Dalvik_DEX_Lollipop.sla" - 806282
+"/mnt/d/Program Files/cutter/lib/plugins/rz_ghidra_sleigh/Dalvik_DEX_Lollipop.sla" - 822316
+"/mnt/d/Program Files/cutter/lib/plugins/rz_ghidra_sleigh/Dalvik_DEX_KitKat.sla" - 822316
+"/mnt/d/$RECYCLE.BIN/S-1-5-21-2909515477-2200856303-920524650-1001/$R0RJVJI/高難度動作!.JPG" - 1018704
+"/mnt/d/$RECYCLE.BIN/S-1-5-21-2909515477-2200856303-920524650-1001/$R0RJVJI/IMG_1107.JPG" - 1018704
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/Dalvik/data/languages/Dalvik_DEX_Android11.sla" - 867775
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/Dalvik/data/languages/Dalvik_DEX_Pie.sla" - 867775
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/Dalvik/data/languages/Dalvik_DEX_Android10.sla" - 867775
+"/mnt/d/Program Files/cutter/lib/plugins/rz_ghidra_sleigh/Dalvik_DEX_Android10.sla" - 885074
+"/mnt/d/Program Files/cutter/lib/plugins/rz_ghidra_sleigh/Dalvik_DEX_Android11.sla" - 885074
+"/mnt/d/Program Files/cutter/lib/plugins/rz_ghidra_sleigh/Dalvik_DEX_Pie.sla" - 885074
+"/mnt/d/Program Files/ghidra/Ghidra/Features/GraphServices/lib/jgrapht-core-1.5.1.jar" - 1249354
+"/mnt/d/Program Files/ghidra/Ghidra/Framework/Graph/lib/jgrapht-core-1.5.1.jar" - 1249354
+"/mnt/d/Videos/CacheClip/audio/C_/Users/benja/Desktop/piano2005/010_0.mp4.pfl" - 826244
+"/mnt/d/Videos/CacheClip/audio/C_/Users/benja/Desktop/2005xxxx/010_0.mp4.pfl" - 826244
+"/mnt/d/Videos/CacheClip/audio/C_/Users/benja/Desktop/2005xxxx/010_1.mp4.pfl" - 826244
+"/mnt/d/Videos/CacheClip/audio/C_/Users/benja/Desktop/piano2005/010_1.mp4.pfl" - 826244
+"/mnt/d/Program Files/cutter/lib/plugins/rz_ghidra_sleigh/PIC24H.sla" - 1585668
+"/mnt/d/Program Files/cutter/lib/plugins/rz_ghidra_sleigh/PIC24F.sla" - 1585668
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/PIC/data/languages/PIC24F.sla" - 1557764
+"/mnt/d/Program Files/ghidra/Ghidra/Processors/PIC/data/languages/PIC24H.sla" - 1557764
+"/mnt/d/$RECYCLE.BIN/S-1-5-21-2909515477-2200856303-920524650-1001/$R0RJVJI/C3A  笑得好開心呢.JPG" - 2383856
+"/mnt/d/$RECYCLE.BIN/S-1-5-21-2909515477-2200856303-920524650-1001/$R0RJVJI/IMG_5009.JPG" - 2383856
+"/mnt/d/Videos/CacheClip/audio/fairlightProfiles/b/FLP_fcd277a1-8581-492b-b981-121ab30fb0ab_80004002.pfl" - 5016688
+"/mnt/d/Videos/CacheClip/audio/fairlightProfiles/b/FLP_fcd277a1-8581-492b-b981-121ab30fb0ab_80004001.pfl" - 5016688
+"/mnt/d/Program Files/cutter/d3dcompiler_47.dll" - 4895184
+"/mnt/d/Program Files/paint.net/D3DCompiler_47_cor3.dll" - 4895184
+"/mnt/d/Videos/CacheClip/audio/C_/Users/benja/Desktop/魔笛/01_10_1.mp4.pfl" - 5860100
+"/mnt/d/Videos/CacheClip/audio/C_/Users/benja/Desktop/魔笛/01_10_0.mp4.pfl" - 5860100
+"/mnt/d/Videos/CacheClip/audio/fairlightProfiles/a/FLP_9aa6dc46-7e2b-4e65-8642-e451b139df6a_80004002.pfl" - 6013628
+"/mnt/d/Videos/CacheClip/audio/fairlightProfiles/a/FLP_9aa6dc46-7e2b-4e65-8642-e451b139df6a_80004001.pfl" - 6013628
+"/mnt/d/Videos/CacheClip/audio/fairlightProfiles/6/FLP_50f0f734-f8cd-4ecf-bf9c-ecf8aa2ebdb6_80004002.pfl" - 5861336
+"/mnt/d/Videos/CacheClip/audio/fairlightProfiles/0/FLP_1ed297ac-7f10-48a3-8675-0e33155fcb70_80004002.pfl" - 5861336
+"/mnt/d/Videos/CacheClip/audio/fairlightProfiles/0/FLP_1ed297ac-7f10-48a3-8675-0e33155fcb70_80004001.pfl" - 5861336
+"/mnt/d/Videos/CacheClip/audio/fairlightProfiles/6/FLP_50f0f734-f8cd-4ecf-bf9c-ecf8aa2ebdb6_80004001.pfl" - 5861336
+"/mnt/d/Archive/Side_Project/D/unsorted/#2015-01-15 20.49.05-1.avi" - 12241442
+"/mnt/d/Archive/Side_Project/D/selected/New folder/#2015-01-15 20.49.05-1.avi" - 12241442
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/userdata.vhdx" - 34603008
+"/mnt/d/Program Files/WSA-with-magisk-GApps-pico_2204.40000.15.0_x64_Release-Nightly/metadata.vhdx" - 34603008
+"/mnt/d/Archive/Side_Project/D/selected/bd/bw (1).wmv" - 79466359
+"/mnt/d/Archive/Side_Project/D/unsorted/Boy jacking off.wmv" - 79466359
+"/mnt/d/Archive/Side_Project/D/selected/bd/S7301133.mov" - 86395488
+"/mnt/d/Archive/Side_Project/D/unsorted/S7301133.mov" - 86395488
