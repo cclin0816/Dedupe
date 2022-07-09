@@ -3,6 +3,10 @@
 #include <algorithm>
 #include <exception>
 #include <iostream>
+#include <mutex>
+#include <shared_mutex>
+#include <thread>
+#include <unordered_map>
 
 #include "config.hh"
 #include "oss.hh"
@@ -44,31 +48,48 @@ class hasher_t {
   XXH128_hash_t digest() noexcept { return XXH3_128bits_digest(_state); }
 };
 
-// using this instead of vector to avoid memory initialization
-class buffer_t {
-  char *_buf;
+// memory manager for buffer.
+class buf_man_t {
+  std::unordered_map<std::thread::id, char *> buf_map;
+  std::shared_mutex rw_lk;
 
  public:
-  buffer_t() = delete;
-  buffer_t(uint64_t size) {
-    _buf = new char[size];
-    if (_buf == nullptr) {
-      throw std::runtime_error("allocate failed");
+  buf_man_t() = default;
+
+  // this is dangerous, make sure no one is still using buffer
+  void release_buf() noexcept {
+    std::unique_lock lk(rw_lk);
+    for (auto &buf : buf_map) {
+      delete[] buf.second;
     }
+    buf_map.clear();
   }
-  ~buffer_t() noexcept {
-    if (_buf != nullptr) {
-      delete[] _buf;
+  char *get() {
+    auto id = std::this_thread::get_id();
+    char *buf = nullptr;
+    {
+      std::shared_lock lk(rw_lk);
+      auto it = buf_map.find(id);
+      if (it != buf_map.end()) {
+        buf = it->second;
+      }
     }
+    if (buf == nullptr) {
+      buf = new char[buf_sz];
+      if (buf == nullptr) {
+        throw std::runtime_error("allocation failed");
+      }
+      {
+        std::unique_lock lk(rw_lk);
+        buf_map.emplace(id, buf);
+      }
+    }
+    return buf;
   }
 
-  buffer_t(const buffer_t &rhs) = delete;
-  buffer_t(buffer_t &&rhs) = delete;
-  buffer_t &operator=(const buffer_t &rhs) = delete;
-  buffer_t &operator=(buffer_t &&rhs) = delete;
-
-  char *data() noexcept { return _buf; }
+  ~buf_man_t() noexcept { release_buf(); }
 };
+buf_man_t buf_man;
 
 std::strong_ordering file_cmp_t::operator<=>(const file_cmp_t &rhs) const {
   // check for hard link equality
@@ -113,26 +134,25 @@ void file_cmp_t::lazy_hash(const uint32_t idx) const {
   if (idx < _file_hashes.size()) {
     return;
   }
+
   hasher_t hasher;
   open_file();
 
   auto blk_sz =
       std::min(idx == 0U ? hash_blk_sz : hash_blk_sz << (idx - 1U), _remain_sz);
   _remain_sz -= blk_sz;
-  auto buf_sz = std::min(max_buf_sz, blk_sz);
-  auto buf = buffer_t(buf_sz);
+  auto buf = buf_man.get();
 
   while (blk_sz > 0) {
     const auto read_sz = std::min(buf_sz, blk_sz);
-    const auto read_len =
-        _file_stream.read(buf.data(), (int64_t)read_sz).gcount();
+    const auto read_len = _file_stream.read(buf, (int64_t)read_sz).gcount();
     if (read_sz != (uint64_t)read_len) {
       oss(std::cerr) << "[err] read error: " << _file_entry.path() << '\n';
       _file_hashes.resize(_max_hash);
       _remain_sz = 0;
       return;
     }
-    hasher.update(buf.data(), read_sz);
+    hasher.update(buf, read_sz);
     blk_sz -= read_sz;
   }
   _file_hashes.emplace_back(hasher.digest());
