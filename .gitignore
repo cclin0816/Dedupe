@@ -2,3 +2,5 @@
 build/*
 debug/*
 dedupe
+report
+*.o

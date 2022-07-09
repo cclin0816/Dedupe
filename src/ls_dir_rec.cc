@@ -12,19 +12,25 @@ inline namespace detail_v1 {
 
 void ls_dir_rec(const std::filesystem::path dir,
                 std::vector<file_entry_t> &file_list, std::mutex &mtx,
-                boost::asio::thread_pool &pool) {
+                boost::asio::thread_pool &pool,
+                const std::vector<std::regex> &exclude_regex) {
   std::vector<file_entry_t> file_list_tmp;
   try {
     for (const auto &dir_entry : std::filesystem::directory_iterator(dir)) {
-      if (dir_entry.is_symlink()) {
+      if (is_exclude(dir_entry.path(), exclude_regex)) {
+        // exclude, skip
+        oss(std::cerr) << "[log] exclude: " << dir_entry.path() << '\n';
+
+      } else if (dir_entry.is_symlink()) {
         // symlink, skip
         oss(std::cerr) << "[warn] skip symlink: " << dir_entry.path() << '\n';
 
       } else if (dir_entry.is_directory()) {
         // directory, recursive call
         boost::asio::post(
-            pool, std::bind(ls_dir_rec, dir_entry.path(), std::ref(file_list),
-                            std::ref(mtx), std::ref(pool)));
+            pool,
+            std::bind(ls_dir_rec, dir_entry.path(), std::ref(file_list),
+                      std::ref(mtx), std::ref(pool), std::cref(exclude_regex)));
 
       } else if (dir_entry.is_regular_file()) {
         // regular file, add to list

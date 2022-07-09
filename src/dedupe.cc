@@ -8,6 +8,7 @@
 #include "dedupe_same_sz.hh"
 #include "file_entry.hh"
 #include "ls_dir_rec.hh"
+#include "oss.hh"
 
 #ifndef BOOST_ASIO_HAS_STD_INVOKE_RESULT
 #define BOOST_ASIO_HAS_STD_INVOKE_RESULT
@@ -36,7 +37,7 @@ class timer_t {
 
 std::vector<std::vector<std::filesystem::path>> dedupe(
     const std::vector<std::filesystem::path> &search_dir,
-    const uint32_t max_thread) {
+    const std::vector<std::regex> &exclude_regex, const uint32_t max_thread) {
   // generate file list
   timer_t timer;
   std::vector<file_entry_t> file_list;
@@ -45,8 +46,13 @@ std::vector<std::vector<std::filesystem::path>> dedupe(
     boost::asio::thread_pool pool(max_thread);
     std::mutex mtx;
     for (const auto &dir : search_dir) {
-      boost::asio::post(pool, std::bind(ls_dir_rec, dir, std::ref(file_list),
-                                        std::ref(mtx), std::ref(pool)));
+      if (is_exclude(dir, exclude_regex)) {
+        oss(std::cerr) << "[log] exclude: " << dir << '\n';
+        continue;
+      }
+      boost::asio::post(
+          pool, std::bind(ls_dir_rec, dir, std::ref(file_list), std::ref(mtx),
+                          std::ref(pool), std::cref(exclude_regex)));
     }
     pool.join();
   }
