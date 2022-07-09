@@ -63,11 +63,11 @@ int main(int argc, char* argv[]) {
   auto dupe_list = dedupe::dedupe(search_dir, exclude_regex, max_thread);
   if (print_out) {
     for (auto& dupe : dupe_list) {
-      std::cout << "--------\n";
+      std::cout << "----\n";
       for (auto& file : dupe) {
         std::cout << file << '\n';
       }
     }
-    std::cout << "--------\n";
+    std::cout << "----\n";
   }
 }
