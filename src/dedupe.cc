@@ -68,6 +68,7 @@ std::vector<std::vector<std::filesystem::path>> dedupe(
 
   // detect duplicates
   std::vector<std::vector<std::filesystem::path>> dupe_list;
+  uint64_t job_count = 0;
   std::cerr << "[log] detect duplicates..." << std::endl;
   if (file_list.size() > 1) {
     // finding union of same file size
@@ -86,6 +87,7 @@ std::vector<std::vector<std::filesystem::path>> dedupe(
               pool,
               std::bind(dedupe_same_sz, std::span(&(*union_st), &(*union_ed)),
                         std::ref(dupe_list), std::ref(mtx)));
+          ++job_count;
         }
         if (union_ed == file_list.end()) {
           break;
@@ -94,6 +96,7 @@ std::vector<std::vector<std::filesystem::path>> dedupe(
       }
       ++union_ed;
     }
+    oss(std::cerr) << "[log] job count: " << job_count << std::endl;
     pool.join();
   }
   std::cerr << "[log] elapsed: " << timer.time().count() << "ms" << std::endl;
