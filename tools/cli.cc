@@ -44,14 +44,14 @@ int main(int argc, char* argv[]) {
       }
       max_thread = (uint32_t)std::stoi(argv[i]);
       if (max_thread == 0 || max_thread > 256) {
-        std::cerr << "max_thread must be > 0 and <= 256" << std::endl;
+        std::cerr << "jobs must be > 0 and <= 256" << std::endl;
         return 1;
       }
-    } else if (argv[i] == "-p"sv) {
+    } else if (argv[i] == "-p"sv || argv[i] == "--print"sv) {
       print_out = true;
     } else if (argv[i] == "-h"sv || argv[i] == "--help"sv) {
-      std::cerr << "usage: [-i search_dir] [-e exclude_regex] [-j max_thread] "
-                   "[-p] [-h]"
+      std::cerr << "usage: [-i search_dir] [-e exclude_regex] [-j jobs] "
+                   "[-p/--print] [-h/--help]"
                 << std::endl;
       return 0;
     } else {
