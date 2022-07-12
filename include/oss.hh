@@ -8,12 +8,12 @@
 
 namespace dedupe {
 
-inline namespace detail_v1 {
+inline namespace detail_v1_0_0 {
 
 // osyncstream is provided
 using oss = std::osyncstream;
 
-}  // namespace detail_v1
+}  // namespace detail_v1_0_0
 
 }  // namespace dedupe
 
@@ -24,7 +24,7 @@ using oss = std::osyncstream;
 
 namespace dedupe {
 
-inline namespace detail_v1 {
+inline namespace detail_v1_0_0 {
 
 // self-implemented osyncstream
 class oss {
@@ -41,7 +41,7 @@ class oss {
   oss(oss &&) = delete;
   oss &operator=(const oss &) = delete;
   oss &operator=(oss &&) = delete;
-  
+
   template <typename Tp>
   inline oss &operator<<(const Tp &val) {
     _os << val;
@@ -50,7 +50,7 @@ class oss {
   inline operator std::ostream &() noexcept { return _os; }
 };
 
-}  // namespace detail_v1
+}  // namespace detail_v1_0_0
 
 }  // namespace dedupe
 

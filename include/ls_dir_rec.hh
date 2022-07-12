@@ -7,15 +7,11 @@
 
 #include "file_entry.hh"
 
-#ifndef BOOST_ASIO_HAS_STD_INVOKE_RESULT
-#define BOOST_ASIO_HAS_STD_INVOKE_RESULT
-#endif
-
 #include <boost/asio/thread_pool.hpp>
 
 namespace dedupe {
 
-inline namespace detail_v1 {
+inline namespace detail_v1_0_0 {
 
 inline bool is_exclude(const std::filesystem::path &path,
                        const std::vector<std::regex> &exclude_regex) {
@@ -41,6 +37,6 @@ void ls_dir_rec(const std::filesystem::path dir,
                 boost::asio::thread_pool &pool,
                 const std::vector<std::regex> &exclude_regex);
 
-}  // namespace detail_v1
+}  // namespace detail_v1_0_0
 
 }  // namespace dedupe

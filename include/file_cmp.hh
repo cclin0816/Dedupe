@@ -13,7 +13,7 @@
 
 namespace dedupe {
 
-inline namespace detail_v1 {
+inline namespace detail_v1_0_0 {
 
 // tools for calculating max_hash
 
@@ -72,6 +72,6 @@ class file_cmp_t {
   inline uint64_t size() const noexcept { return _file_entry.size(); }
 };
 
-}  // namespace detail_v1
+}  // namespace detail_v1_0_0
 
 }  // namespace dedupe

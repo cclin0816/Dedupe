@@ -1,5 +1,7 @@
 #pragma once
 
+#define DEDUPE_EXPORT __attribute__((visibility("default")))
+
 namespace dedupe {
 
 // 512B

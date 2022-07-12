@@ -8,7 +8,7 @@
 
 namespace dedupe {
 
-inline namespace detail_v1 {
+inline namespace detail_v1_0_0 {
 
 void ls_dir_rec(const std::filesystem::path dir,
                 std::vector<file_entry_t> &file_list, std::mutex &mtx,
@@ -66,6 +66,6 @@ void ls_dir_rec(const std::filesystem::path dir,
   }
 }
 
-}  // namespace detail_v1
+}  // namespace detail_v1_0_0
 
 }  // namespace dedupe

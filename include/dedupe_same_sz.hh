@@ -9,7 +9,7 @@
 
 namespace dedupe {
 
-inline namespace detail_v1 {
+inline namespace detail_v1_0_0 {
 
 /**
  * @brief detects duplicate files of the same size using hash,
@@ -23,6 +23,6 @@ void dedupe_same_sz(std::span<file_entry_t> file_list,
                     std::vector<std::vector<std::filesystem::path>> &dupe_list,
                     std::mutex &mtx);
 
-}  // namespace detail_v1
+}  // namespace detail_v1_0_0
 
 }  // namespace dedupe

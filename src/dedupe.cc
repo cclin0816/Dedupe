@@ -1,25 +1,23 @@
-#include "dedupe.hh"
-
+#include <boost/asio.hpp>
+#include <boost/asio/thread_pool.hpp>
 #include <chrono>
+#include <cstdint>
+#include <filesystem>
 #include <functional>
 #include <iostream>
 #include <mutex>
+#include <regex>
+#include <vector>
 
+#include "config.hh"
 #include "dedupe_same_sz.hh"
 #include "file_entry.hh"
 #include "ls_dir_rec.hh"
 #include "oss.hh"
 
-#ifndef BOOST_ASIO_HAS_STD_INVOKE_RESULT
-#define BOOST_ASIO_HAS_STD_INVOKE_RESULT
-#endif
-
-#include <boost/asio.hpp>
-#include <boost/asio/thread_pool.hpp>
-
 namespace dedupe {
 
-inline namespace detail_v1 {
+inline namespace detail_v1_0_0 {
 
 class timer_t {
   std::chrono::steady_clock::time_point _prev_time;
@@ -35,7 +33,7 @@ class timer_t {
   }
 };
 
-std::vector<std::vector<std::filesystem::path>> dedupe(
+std::vector<std::vector<std::filesystem::path>> DEDUPE_EXPORT dedupe(
     const std::vector<std::filesystem::path> &search_dir,
     const std::vector<std::regex> &exclude_regex, const uint32_t max_thread) {
   // generate file list
@@ -105,6 +103,6 @@ std::vector<std::vector<std::filesystem::path>> dedupe(
   return dupe_list;
 }
 
-}  // namespace detail_v1
+}  // namespace detail_v1_0_0
 
 }  // namespace dedupe

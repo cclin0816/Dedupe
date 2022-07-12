@@ -13,7 +13,7 @@
 
 namespace dedupe {
 
-inline namespace detail_v1 {
+inline namespace detail_v1_0_0 {
 
 // RAII wrapper for xxhash library.
 class hasher_t {
@@ -158,6 +158,6 @@ void file_cmp_t::lazy_hash(const uint32_t idx) const {
   _file_hashes.emplace_back(hasher.digest());
 }
 
-}  // namespace detail_v1
+}  // namespace detail_v1_0_0
 
 }  // namespace dedupe

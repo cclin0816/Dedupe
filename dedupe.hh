@@ -7,7 +7,7 @@
 
 namespace dedupe {
 
-inline namespace detail_v1 {
+inline namespace detail_v1_0_0 {
 
 /**
  * @brief detects duplicate files using file size and hash,
@@ -23,6 +23,13 @@ std::vector<std::vector<std::filesystem::path>> dedupe(
     const std::vector<std::regex> &exclude_regex,
     const uint32_t max_thread = 4);
 
-}  // namespace detail_v1
+/**
+ * @brief remove files
+ *
+ * @param rm_list files to remove
+ */
+void remove(const std::vector<std::filesystem::path> &rm_list);
+
+}  // namespace detail_v1_0_0
 
 }  // namespace dedupe

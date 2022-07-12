@@ -8,7 +8,7 @@
 
 namespace dedupe {
 
-inline namespace detail_v1 {
+inline namespace detail_v1_0_0 {
 
 void dedupe_same_sz(std::span<file_entry_t> file_list,
                     std::vector<std::vector<std::filesystem::path>> &dupe_list,
@@ -60,6 +60,6 @@ void dedupe_same_sz(std::span<file_entry_t> file_list,
   }
 }
 
-}  // namespace detail_v1
+}  // namespace detail_v1_0_0
 
 }  // namespace dedupe

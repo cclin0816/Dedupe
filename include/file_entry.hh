@@ -6,7 +6,7 @@
 
 namespace dedupe {
 
-inline namespace detail_v1 {
+inline namespace detail_v1_0_0 {
 
 class file_entry_t {
   std::filesystem::path _path;
@@ -27,6 +27,6 @@ class file_entry_t {
   inline uint64_t size() const noexcept { return _size; }
 };
 
-}  // namespace detail_v1
+}  // namespace detail_v1_0_0
 
 }  // namespace dedupe
