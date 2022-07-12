@@ -13,7 +13,7 @@ namespace dedupe {
 
 inline namespace detail_v1_0_0 {
 
-inline bool is_exclude(const std::filesystem::path &path,
+inline bool is_excluded(const std::filesystem::path &path,
                        const std::vector<std::regex> &exclude_regex) {
   for (const auto &regex : exclude_regex) {
     if (std::regex_match(path.native(), regex)) {

@@ -17,9 +17,9 @@ void ls_dir_rec(const std::filesystem::path dir,
   std::vector<file_entry_t> file_list_tmp;
   try {
     for (const auto &dir_entry : std::filesystem::directory_iterator(dir)) {
-      if (is_exclude(dir_entry.path(), exclude_regex)) {
+      if (is_excluded(dir_entry.path(), exclude_regex)) {
         // exclude, skip
-        oss(std::cerr) << "[log] exclude: " << dir_entry.path() << '\n';
+        oss(std::cerr) << "[log] skip exclude: " << dir_entry.path() << '\n';
 
       } else if (dir_entry.is_symlink()) {
         // symlink, skip

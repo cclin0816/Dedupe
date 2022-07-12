@@ -44,7 +44,7 @@ std::vector<std::vector<std::filesystem::path>> DEDUPE_EXPORT dedupe(
     boost::asio::thread_pool pool(max_thread);
     std::mutex mtx;
     for (const auto &dir : search_dir) {
-      if (is_exclude(dir, exclude_regex)) {
+      if (is_excluded(dir, exclude_regex)) {
         oss(std::cerr) << "[log] exclude: " << dir << '\n';
         continue;
       }

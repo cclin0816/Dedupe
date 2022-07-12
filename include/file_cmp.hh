@@ -54,6 +54,7 @@ class file_cmp_t {
         _max_hash(max_hash) {
     _file_hashes.reserve(_max_hash);
     _hard_link_cnt = std::filesystem::hard_link_count(_file_entry.path());
+    _file_stream.rdbuf()->pubsetbuf(nullptr, 0);
   }
 
   file_cmp_t(const file_cmp_t &) = delete;
@@ -66,7 +67,8 @@ class file_cmp_t {
     return (*this <=> rhs) == std::strong_ordering::equal;
   }
 
-  inline std::filesystem::path path() const noexcept {
+  inline std::filesystem::path &path() noexcept { return _file_entry.path(); }
+  inline const std::filesystem::path &path() const noexcept {
     return _file_entry.path();
   }
   inline uint64_t size() const noexcept { return _file_entry.size(); }

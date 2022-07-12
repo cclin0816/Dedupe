@@ -23,6 +23,7 @@ class file_entry_t {
   inline file_entry_t &operator=(const file_entry_t &rhs) = default;
   inline file_entry_t &operator=(file_entry_t &&rhs) = default;
 
+  inline std::filesystem::path &path() noexcept { return _path; }
   inline const std::filesystem::path &path() const noexcept { return _path; }
   inline uint64_t size() const noexcept { return _size; }
 };

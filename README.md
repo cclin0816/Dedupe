@@ -26,4 +26,3 @@ meson compile -C build
 ```sh=
 ./dedupe_cli [-i search_dir] [-e exclude_regex] [-j jobs] [-p/--print] [-h/--help]
 ```
-

@@ -39,7 +39,7 @@ void dedupe_same_sz(std::span<file_entry_t> file_list,
           auto &group = dupe_list_tmp.emplace_back();
           group.reserve((uint64_t)union_sz);
           for (; union_st != union_ed; ++union_st) {
-            group.emplace_back(union_st->path());
+            group.emplace_back(std::move(union_st->path()));
           }
         }
         if (union_ed == file_cmp_list.end()) {
